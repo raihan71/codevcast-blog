@@ -39,7 +39,7 @@ export default {
 		}
 	},
 	props: ['showTitle'],
-	created() {
+	mounted() {
 		if (window.__theme == 'dark') {
 			this.logo = dark
 		}
